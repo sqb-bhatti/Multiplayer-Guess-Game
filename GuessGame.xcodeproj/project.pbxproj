@@ -16,6 +16,7 @@
 		D4E570862C510695000644B5 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E570852C510695000644B5 /* Misc.swift */; };
 		D4E570882C51683E000644B5 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E570872C51683E000644B5 /* GameOverView.swift */; };
 		D4E5708A2C51F22C000644B5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E570892C51F22C000644B5 /* GameView.swift */; };
+		D4E5708C2C5213F1000644B5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5708B2C5213F1000644B5 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D4E570852C510695000644B5 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
 		D4E570872C51683E000644B5 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		D4E570892C51F22C000644B5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D4E5708B2C5213F1000644B5 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D4E570852C510695000644B5 /* Misc.swift */,
 				D4E570872C51683E000644B5 /* GameOverView.swift */,
 				D4E570892C51F22C000644B5 /* GameView.swift */,
+				D4E5708B2C5213F1000644B5 /* DrawingView.swift */,
 				D4E570772C50E47E000644B5 /* Assets.xcassets */,
 				D4E570792C50E47E000644B5 /* Preview Content */,
 			);
@@ -117,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4E5706B2C50E47A000644B5 /* Build configuration list for PBXProject "GuessPersonality" */;
+			buildConfigurationList = D4E5706B2C50E47A000644B5 /* Build configuration list for PBXProject "GuessGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,6 +158,7 @@
 				D4E570762C50E47A000644B5 /* ContentView.swift in Sources */,
 				D4E570842C510627000644B5 /* MatchManager.swift in Sources */,
 				D4E570822C50E7DC000644B5 /* MenuView.swift in Sources */,
+				D4E5708C2C5213F1000644B5 /* DrawingView.swift in Sources */,
 				D4E570862C510695000644B5 /* Misc.swift in Sources */,
 				D4E570882C51683E000644B5 /* GameOverView.swift in Sources */,
 				D4E570742C50E47A000644B5 /* GuessPersonalityApp.swift in Sources */,
@@ -345,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4E5706B2C50E47A000644B5 /* Build configuration list for PBXProject "GuessPersonality" */ = {
+		D4E5706B2C50E47A000644B5 /* Build configuration list for PBXProject "GuessGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4E5707C2C50E47E000644B5 /* Debug */,
