@@ -6,6 +6,8 @@
 
 import SwiftUI
 
+var countDownTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+
 struct GameView: View {
     @ObservedObject var matchManager: MatchManager
     @State var drawingGuess = ""
@@ -63,6 +65,10 @@ struct GameView: View {
                 promptGroup
             }
             .ignoresSafeArea(.container)
+        }
+        .onReceive(countDownTimer) { _ in
+            guard matchManager.isTimeKeeper else { return }
+            matchManager.remainingTime -= 1
         }
     }
     

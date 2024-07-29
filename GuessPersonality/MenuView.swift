@@ -21,7 +21,7 @@ struct MenuView: View {
                 .padding(20)
                 
                 Button {
-                    // To Dod
+                    matchManager.startMatchmaking()
                 } label: {
                     Text("Play")
                         .font(.largeTitle)
