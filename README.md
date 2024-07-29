@@ -6,3 +6,8 @@ Multiplayer iOS Game between 2 players to guess the missing letters of a word.
 
 
 
+# To Install
+1. Select 'working' branch from drop down menu.
+2. git clone https://github.com/sqb-bhatti/Multiplayer-Guess-Game.git
+3. Open Life GuessGame.xcodeproj
+4. Build and Run.
